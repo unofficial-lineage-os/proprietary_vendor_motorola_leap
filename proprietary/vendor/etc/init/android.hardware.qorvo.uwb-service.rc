@@ -1,0 +1,25 @@
+on early-boot
+   start vendor.init_uwb
+
+on boot
+   chown uwb uwb /dev/uci0
+   chmod 0660 /dev/uci0
+
+service vendor.init_uwb /vendor/bin/init.uwb.sh
+    class main
+    user uwb
+    group uwb vendor_tcmd system
+    oneshot
+    disabled
+
+on boot && property:ro.vendor.hw.uwb=qorvo
+    start vendor.uwb_hal
+
+service vendor.uwb_hal /vendor/bin/hw/android.hardware.qorvo.uwb-service
+    class hal
+    user uwb
+    group uwb
+    disabled
+
+on post-fs-data
+    mkdir /data/vendor/uwb 0750 uwb uwb

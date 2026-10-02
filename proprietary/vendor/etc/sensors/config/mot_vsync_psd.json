@@ -1,0 +1,16 @@
+{
+  "config":
+  {
+    "hw_platform": ["Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["618", "639"]
+  },
+  "mot_vsync_psd":{
+    "owner": "mot_vsync_psd",
+    ".params":{
+      "owner": "mot_vsync_psd",
+      "panel_nums":{ "type": "int", "ver": "0",
+        "data": "2"
+      }
+    }
+  }
+}

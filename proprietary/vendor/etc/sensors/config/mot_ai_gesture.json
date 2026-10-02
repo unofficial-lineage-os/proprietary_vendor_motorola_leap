@@ -1,0 +1,25 @@
+{
+    "config":
+    {
+      "hw_platform": ["Surf", "RCM", "QRD", "HDK"],
+      "soc_id": ["618", "639"]
+    },
+    "mot_ai_gesture":{
+      "owner": "mot_ai_gesture",
+      ".params":{
+        "owner": "mot_ai_gesture",
+        "close_mode_twist_mode":{ "type": "flt", "ver": "0",
+          "data": "1"
+        },
+        "close_mode_chopchop_mode":{ "type": "flt", "ver": "0",
+          "data": "1"
+        },
+        "open_mode_twist_mode":{ "type": "flt", "ver": "0",
+          "data": "1"
+        },
+        "open_mode_chopchop_mode":{ "type": "flt", "ver": "0",
+          "data": "1"
+        }
+      }
+    }
+  }

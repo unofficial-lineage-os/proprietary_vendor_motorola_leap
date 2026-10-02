@@ -1,0 +1,19 @@
+{
+  "config":
+  {
+    "hw_platform": ["Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["618", "639"]
+  },
+  "mot_presence_flip":{
+    "owner": "mot_presence_flip",
+    ".params":{
+      "owner": "mot_presence_flip",
+      "hod_fps":{ "type": "flt", "ver": "0",
+        "data": "4.0"
+      },
+      "absence_delay_second":{ "type": "flt", "ver": "0",
+        "data": "10.0"
+      }
+    }
+  }
+}

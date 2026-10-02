@@ -1,0 +1,31 @@
+{
+  "config":
+  {
+    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK","IDP"],
+    "soc_id": ["618", "639"]
+  },
+  "mot_grab":{
+    "owner": "mot_grab",
+    ".params":{
+      "owner": "mot_grab",
+      "min_lead_accel_mag":{ "type": "flt", "ver": "0",
+        "data": "15.0"
+      },
+      "min_peak_accel_mag":{ "type": "flt", "ver": "0",
+        "data": "25.0"
+      },
+      "min_disp":{ "type": "flt", "ver": "0",
+        "data": "5.0"
+      },
+      "min_peak2start_ratio":{ "type": "flt", "ver": "0",
+        "data": "2.0"
+      },
+      "min_peak_accel_dmag":{ "type": "flt", "ver": "0",
+        "data": "2.0"
+      },
+      "min_confidence":{ "type": "int", "ver": "0",
+        "data": "60"
+      }
+    }
+  }
+}

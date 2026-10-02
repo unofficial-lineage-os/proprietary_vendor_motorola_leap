@@ -1,0 +1,16 @@
+{
+    "config":
+    {
+      "hw_platform": ["Surf", "RCM", "QRD", "HDK"],
+      "soc_id": ["618", "639"]
+    },
+    "mot_ai_proximity":{
+      "owner": "mot_ai_proximity",
+      ".params":{
+        "owner": "mot_ai_proximity",
+        "close_mode_ai_proximity_mode":{ "type": "flt", "ver": "0",
+          "data": "1"
+        }
+      }
+    }
+  }

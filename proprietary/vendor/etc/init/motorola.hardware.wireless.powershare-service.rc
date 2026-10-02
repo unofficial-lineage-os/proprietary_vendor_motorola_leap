@@ -1,0 +1,4 @@
+service vendor.mot.powershare-hal /vendor/bin/hw/motorola.hardware.wireless.powershare-service
+    class hal
+    user system
+    group system

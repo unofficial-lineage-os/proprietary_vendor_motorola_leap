@@ -1,0 +1,15 @@
+#--------------------------------------------------------------------------------------------------
+#                         Motorola Mobility Confidential Proprietary
+#                 (c) Copyright Motorola Mobility 2024-2025, All Rights Reserved
+#--------------------------------------------------------------------------------------------------
+
+# The existing USB hal running as system/usb ownership also need to write/read access the usb sysfs nodes.
+# Here just follow regular definition for ownership as so to make sure the same usb sysfs nodes can
+# be accessed by other existing services.
+service vendor.usbcare /vendor/bin/usbcare
+    user system
+    group usb
+    seclabel u:r:hal_mot_vendor_usbcare:s0
+
+on post-fs
+    start vendor.usbcare

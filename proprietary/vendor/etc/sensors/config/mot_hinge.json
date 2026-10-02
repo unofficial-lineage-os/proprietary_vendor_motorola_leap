@@ -1,0 +1,67 @@
+{
+  "config":
+  {
+    "hw_platform": ["Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["618", "639"]
+  },
+  "mot_hinge":{
+    "owner": "mot_hinge",
+    ".params":{
+      "owner": "mot_hinge",
+      "enter_flat_max_x_accel":{ "type": "flt", "ver": "0",
+        "data": "6.5"
+      },
+      "exit_flat_max_x_accel":{ "type": "flt", "ver": "0",
+        "data": "8.0"
+      },
+      "exit_70_enter_0_angle":{ "type": "flt", "ver": "0",
+        "data": "30.5"
+      },
+      "exit_0_enter_70_angle":{ "type": "flt", "ver": "0",
+        "data": "35.5"
+      },
+      "exit_90_enter_70_angle":{ "type": "flt", "ver": "0",
+        "data": "75.0"
+      },
+      "exit_70_enter_90_angle":{ "type": "flt", "ver": "0",
+        "data": "87.0"
+      },
+      "exit_110_enter_90_angle":{ "type": "flt", "ver": "0",
+        "data": "93.0"
+      },
+      "exit_90_enter_110_angle":{ "type": "flt", "ver": "0",
+        "data": "96.0"
+      },
+      "exit_180_enter_110_angle":{ "type": "flt", "ver": "0",
+        "data": "135.0"
+      },
+      "exit_110_enter_180_angle":{ "type": "flt", "ver": "0",
+        "data": "140.0"
+      },
+      "angle_stable_max_delta":{ "type": "flt", "ver": "0",
+        "data": "1.0"
+      },
+      "hinge_state_gpio":{ "type": "int", "ver": "0",
+        "data": "-1.0"
+      },
+      "gyro_init_force_thres":{ "type": "flt", "ver": "0",
+        "data": "450.0"
+      },
+      "accel_sqmag_diff_thres":{ "type": "flt", "ver": "0",
+        "data": "10.0"
+      },
+      "gyro_force_align_factor":{ "type": "flt", "ver": "0",
+        "data": "15.0"
+      },
+      "gyro_force_abs_thres":{ "type": "flt", "ver": "0",
+        "data": "200.0"
+      },
+      "update_hinge_x_gyro_thres":{ "type": "flt", "ver": "0",
+        "data": "15.0"
+      },
+      "update_hinge_la_sqmag_thres":{ "type": "flt", "ver": "0",
+        "data": "5.0"
+      }
+    }
+  }
+}

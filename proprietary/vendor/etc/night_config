@@ -1,0 +1,69 @@
+{
+  //                   back      |   front      |    wide
+  "imagers" :     [ "mot_s5kgnj",  "mot_s5kjns",   "imx816"],
+  "camera-type" : [ "back-main",   "front-main",   "back-wide"],
+  "mfnr-night" : {
+    "enable":                     [ true,       true,       true ],
+    "params-dynamic" : [
+         { // default
+           "lux-upper" :          [ 20.0,       20.0,       20.0 ],
+           "lux-lower" :          [ 0.0,        0.0,        0.0  ],
+           "normal-ev" :          [ 0,          0,          0    ],
+           "ev-exp-time" :        [ 0,          0,          0    ]
+         },
+         { // 1st
+           "lux-upper" :          [ 0.3,        0.3,        0.3  ],
+           "lux-lower" :          [ 0,          0,          0    ],
+           "normal-ev" :          [ 5,          5,          5    ],
+           "ev-exp-time" :        [ 144,        125,        125  ]
+         },
+         { // 2th
+          "lux-upper" :           [ 0.5,        0.5,        0.5  ],
+          "lux-lower" :           [ 0.3,        0.3,        0.3  ],
+          "normal-ev" :           [ 5,          5,          5    ],
+          "ev-exp-time" :         [ 144,        125,        125  ]
+         },
+         { // 3st
+           "lux-upper" :          [ 3.0,        3.0,        3.0  ],
+           "lux-lower" :          [ 0.5,        0.5,        0.5  ],
+           "normal-ev" :          [ 4,          4,          4    ],
+           "ev-exp-time" :        [ 140,        100,        100  ]
+         },
+         { // 4nd
+           "lux-upper" :          [ 7.0,        7.0,        7.0  ],
+           "lux-lower" :          [ 3.0,        3.0,        3.0  ],
+           "normal-ev" :          [ 3,          3,          3    ],
+           "ev-exp-time" :        [ 120,        86,         120  ]
+         },
+         { // 5rd
+           "lux-upper" :          [ 15.0,       15.0,       15.0 ],
+           "lux-lower" :          [ 7.0,        7.0,        7.0  ],
+           "normal-ev" :          [ 2,          2,          2    ],
+           "ev-exp-time" :        [ 100,        66,         100  ]
+         },
+         { // 6th
+           "lux-upper" :          [ 20.0,      20.0,        20.0 ],
+           "lux-lower" :          [ 15.0,      15.0,        15.0 ],
+           "normal-ev" :          [ 1,         1,           1    ],
+           "ev-exp-time" :        [ 83,        50,          50   ]
+         }
+   ],
+    "lux-idx-to-std-params" : [
+      {
+        "sensor-name" : "mot_s5kgnj", // Back main
+        "aCoefficient": -33.218,
+        "bCoefficient": 411.608
+      },
+      {
+        "sensor-name" : "mot_s5kjns", // Front main
+        "aCoefficient": -30.872,
+        "bCoefficient": 396.745
+      },
+      {
+        "sensor-name" : "imx816", // Back wide
+        "aCoefficient": -34.226,
+        "bCoefficient": 429.926
+      }
+    ]
+  }
+}

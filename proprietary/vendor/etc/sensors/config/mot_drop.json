@@ -1,0 +1,40 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["618", "639"]
+  },
+  "mot_drop":{
+    "owner": "mot_drop",
+    ".params":{
+      "owner": "mot_drop",
+      "super_huge_value":{ "type": "flt", "ver": "0",
+        "data": "50"
+      },
+      "huge_value":{ "type": "flt", "ver": "0",
+        "data": "21"
+      },
+      "stable_value":{ "type": "flt", "ver": "0",
+        "data": "1"
+      },
+      "one_meter_drop_duration":{ "type": "flt", "ver": "0",
+        "data": "0.4523"
+      },
+      "throw_up_correction_factor":{ "type": "flt", "ver": "0",
+        "data": "0.013"
+      },
+      "throw_up_correction_threshold1":{ "type": "flt", "ver": "0",
+        "data": "18"
+      },
+      "throw_up_correction_threshold2":{ "type": "flt", "ver": "0",
+        "data": "6"
+      },
+      "throw_up_correction_offset":{ "type": "flt", "ver": "0",
+        "data": "10"
+      },
+      "rotation_compensation":{ "type": "flt", "ver": "0",
+        "data": "0.8"
+      }
+    }
+  }
+}

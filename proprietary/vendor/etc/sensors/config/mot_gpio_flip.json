@@ -1,0 +1,16 @@
+{
+  "config":
+  {
+    "hw_platform": ["Surf", "RCM", "QRD", "HDK"],
+    "soc_id": ["618", "639"]
+  },
+  "mot_gpio_flip":{
+    "owner": "mot_gpio_flip",
+    ".params":{
+      "owner": "mot_gpio_flip",
+      "flip_state_gpio":{ "type": "int", "ver": "0",
+        "data": "-1"
+      }
+    }
+  }
+}

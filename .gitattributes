@@ -1,0 +1,5 @@
+proprietary/vendor/etc/asr_model.eai filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/lib64/libarcsoft_tf_sr.so filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/lib64/libarcsoft_turbo_hdr_raw_portrait.so filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/lib64/libarcsoft_turbo_hdr_raw.so filter=lfs diff=lfs merge=lfs -text
+proprietary/vendor/lib64/libarcsoft_turbo_motion_capture_raw.so filter=lfs diff=lfs merge=lfs -text

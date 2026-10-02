@@ -1,0 +1,196 @@
+{
+  "list": [
+    {
+      "name": "default",
+      "noise": {
+        "quite": 1E15,
+        "loud": 5E15
+      },
+      "wakeup": {
+        "v2": {
+          "first_stage_keyphrase": 69,
+          "first_stage_user": 69
+        },
+        "v3": {
+          "first_stage_keyphrase": 40,
+          "first_stage_user": 1,
+          "second_stage_keyphrase": 40,
+          "second_stage_user": 35
+        }
+      }
+    },
+    {
+      "name": "nio",
+      "noise": {
+        "quite": 1E15,
+        "loud": 5E15
+      },
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 20,
+          "first_stage_user": 20,
+          "second_stage_keyphrase": 32,
+          "second_stage_user": 10
+        }
+      }
+    },
+    {
+      "name": "hiphic",
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 50,
+          "first_stage_user": 1,
+          "second_stage_keyphrase": 50,
+          "second_stage_user": 10
+        }
+      }
+    },
+    {
+      "name": "berlin",
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 20,
+          "first_stage_user": 20,
+          "second_stage_keyphrase": 32,
+          "second_stage_user": 10
+        }
+      }
+    },
+    {
+      "name": "pstar",
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 20,
+          "first_stage_user": 20,
+          "second_stage_keyphrase": 32,
+          "second_stage_user": 10
+        }
+      }
+    },
+    {
+      "name": "ibiza",
+      "noise": {
+        "quite": 4E15,
+        "loud": 5.2E15
+      },
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 20,
+          "first_stage_user": 20,
+          "second_stage_keyphrase": 32,
+          "second_stage_user": 10
+        }
+      }
+    },
+    {
+      "name": "doom",
+      "noise": {
+        "quite": 1E11,
+        "loud": 2E12
+      },
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 40,
+          "first_stage_user": 0,
+          "second_stage_keyphrase": 73,
+          "second_stage_user": 5
+        }
+      }
+    },
+    {
+      "name": "doom_rf",
+      "noise": {
+        "quite": 3E15,
+        "loud": 5E15
+      },
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 40,
+          "first_stage_user": 0,
+          "second_stage_keyphrase": 73,
+          "second_stage_user": 5
+        }
+      }
+    },
+    {
+      "name": "moba",
+      "noise": {
+        "quite": 1E15,
+        "loud": 5E15
+      },
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 40,
+          "first_stage_user": 1,
+          "second_stage_keyphrase": 40,
+          "second_stage_user": 35
+        }
+      }
+    },
+    {
+      "name": "diablo",
+      "noise": {
+        "quite": 1E10,
+        "loud": 5E11
+      },
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 35,
+          "first_stage_user": 1,
+          "second_stage_keyphrase": 100,
+          "second_stage_user": 5
+        }
+      }
+    },
+    {
+      "name": "rtwo",
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 30,
+          "second_stage_keyphrase": 55,
+          "second_stage_user": 37
+        }
+      }
+    },
+    {
+      "name": "bronco",
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 50,
+          "second_stage_keyphrase": 50,
+          "second_stage_user": 10
+        }
+      }
+    },
+    {
+      "name": "zeekr",
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 48,
+          "second_stage_keyphrase": 48,
+          "second_stage_user": 26
+        }
+      }
+    },
+    {
+      "name": "lynkco",
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 30,
+          "second_stage_keyphrase": 50,
+          "second_stage_user": 37
+        }
+      }
+    },
+    {
+      "name": "ctwo",
+      "wakeup": {
+        "v3": {
+          "first_stage_keyphrase": 30,
+          "second_stage_keyphrase": 50,
+          "second_stage_user": 37
+        }
+      }
+    }
+  ]
+}
