@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/leap/proprietary/vendor/etc/acdbdata/sun_qrd/QRD_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/sun_qrd/QRD_workspaceFileXml.qwsp \
     vendor/motorola/leap/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_configurations.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_configurations.json \
     vendor/motorola/leap/proprietary/vendor/etc/aidl/le_audio/aidl_audio_set_scenarios.json:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/aidl_audio_set_scenarios.json \
+    vendor/motorola/leap/proprietary/vendor/etc/aidl/le_audio/moto_audio_set_configurations.bfbs:$(TARGET_COPY_OUT_VENDOR)/etc/aidl/le_audio/moto_audio_set_configurations.bfbs \
     vendor/motorola/leap/proprietary/vendor/etc/ap_gain.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ap_gain.bin \
     vendor/motorola/leap/proprietary/vendor/etc/ap_gain_mmul.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ap_gain_mmul.bin \
     vendor/motorola/leap/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
